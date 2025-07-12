@@ -21,7 +21,7 @@
     "A technology company, and a man who kills vampires.": "Razor Blade",
     "A tricky attempt to eat fruit.": "Orange Slices",
     "A well-filled shirt can stop bullets?": "Liquid Armour Vest",
-    "Ah, A real manufactured blade.": "Knife",
+    "Ah, a real manufactured blade.": "Knife",
     "An oversized coat for an oversized man.": "Santa Outfit",
     "Ba-Ba-Balloomba": "Party Balloons",
     "Be careful with this one. It can be dangerous if misused.": "Firework",
