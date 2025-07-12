@@ -114,7 +114,7 @@ const clueAnswers = {
     "With just a little sharpened metal and some cloth, stab": "Shank",
     "Winner winner turkey dinner!!!!": "Turkey Dinner",
     "Wonderful if you've ripped your pants.": "Sewing Kit",
-    "You could shoot someone's eye out with one of these": "Slingshot",
+    "You could shoot someone's eyes out with one of these": "Slingshot",
     "Yum on a stick.": "Lollipop",
     "Zombies can't use a gun...Can they?": "Zombie Guards Gun [Rubber Bullets]",
     "Zap!": "Tazer",
