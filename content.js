@@ -74,7 +74,7 @@ const clueAnswers = {
   "Belonged to your grandfather, but it keeps the sun out of your eyes.": {
     answer: "Old Hat",
     location: ["Panama", "Alcatraz"],
-    cost: "",
+    cost: "$5,000",
     drops: [],
   },
   "Belongs in a waiting room.": {
@@ -103,7 +103,7 @@ const clueAnswers = {
   },
   "Care to take a chance at love?": {
     answer: "Cupids Arrow",
-    location: [],
+    location: ["Auction"],
     cost: "",
     drops: [],
   },
@@ -122,7 +122,7 @@ const clueAnswers = {
   "Compartments for your slop": {
     answer: "Dinner Tray",
     location: ["Panama", "Alcatraz", "Guantanamo Bay", "Long Bay", "Utah"],
-    cost: "$500,000",
+    cost: "$5,000",
     drops: [],
   },
   "Definitely not for everyone.": {
@@ -217,8 +217,8 @@ const clueAnswers = {
   },
   "Hat, or symbol of authority.": {
     answer: "Police Helmet",
-    location: [],
-    cost: "",
+    location: ["McNeil Island", "Sing Sing"],
+    cost: "$37,000,000",
     drops: [],
   },
   "How terrifying!": {
@@ -251,8 +251,8 @@ const clueAnswers = {
   },
   "If it lasts longer than 4 hours, call a doctor.": {
     answer: "Viagra",
-    location: [],
-    cost: "",
+    location: ["Pharmacy"],
+    cost: "$1,500,000",
     drops: [],
   },
   "If you want you can use this candy as a straw": {
@@ -342,8 +342,8 @@ const clueAnswers = {
   },
   "Makes you feel like you get more done during the day.": {
     answer: "Caffeine",
-    location: [],
-    cost: "",
+    location: ["Pharmacy"],
+    cost: "$1,500,000",
     drops: [],
   },
   "Nightstick.": {
@@ -360,7 +360,7 @@ const clueAnswers = {
   },
   "No one complains about minutes anymore.": {
     answer: "Phone",
-    location: [],
+    location: ["Auction", "Shard Exchange"],
     cost: "",
     drops: [],
   },
@@ -432,7 +432,7 @@ const clueAnswers = {
   },
   "Pretty picture": {
     answer: "Portrait",
-    location: ["Shard Exchange"],
+    location: ["Auction", "Shard Exchange"],
     cost: "",
     drops: [],
   },
@@ -468,7 +468,7 @@ const clueAnswers = {
   },
   "Rumor has it, Audman eats this every day.": {
     answer: "Chilli Peppers",
-    location: [],
+    location: ["Gardening"],
     cost: "",
     drops: [],
   },
@@ -528,26 +528,26 @@ const clueAnswers = {
   },
   "The hat from a clockwork orange.": {
     answer: "Bowler Hat",
-    location: [],
-    cost: "",
+    location: ["Long Bay", "Utah", "Dorchester"],
+    cost: "$1,200,000",
     drops: [],
   },
   "These guys got your back.": {
     answer: "Body Guard",
-    location: [],
-    cost: "",
+    location: ["Attica", "McNeil Island"],
+    cost: "$45,000,000",
     drops: [],
   },
   "These must be stolen from the commissary's food section. Tons of protein": {
     answer: "Energy Bars",
-    location: [],
-    cost: "",
+    location: ["Utah", "Dorchester", "San Quentin"],
+    cost: "$18,000,000",
     drops: [],
   },
   "This button-up is deceitfully defensive.": {
     answer: "Padded Shirt",
-    location: [],
-    cost: "",
+    location: ["Panama", "Alcatraz", "Guantanamo Bay", "Long Bay", "Utah"],
+    cost: "$25,000",
     drops: [],
   },
   "This has to be expired by now... right?": {
@@ -558,14 +558,14 @@ const clueAnswers = {
   },
   "This looks like it is pretty universal": {
     answer: "Warden Office Key",
-    location: [],
+    location: ["Boss Drop", "Daily Visit"],
     cost: "",
     drops: [],
   },
   "This plastic was brilliantly fashioned into a weapon.": {
     answer: "Sharpened Piece of Plastic",
-    location: [],
-    cost: "",
+    location: ["Panama", "Alcatraz", "Guantanamo Bay"],
+    cost: "$10,000",
     drops: [],
   },
   "This seems kind of stale, but it's sugar.": {
@@ -576,44 +576,44 @@ const clueAnswers = {
   },
   "This will definitely make it easier to stab and slash.": {
     answer: "Knife Sharpener",
-    location: [],
-    cost: "",
+    location: ["Attica", "McNeil Island", "Sing Sing"],
+    cost: "$25,000,000",
     drops: [],
   },
   "Turns your punches into brass taps.": {
     answer: "Knuckle Dusters",
-    location: [],
-    cost: "",
+    location: ["Alcatraz", "Guantanamo Bay", "Long Bay", "Utah"],
+    cost: "$350,000",
     drops: [],
   },
   "Uhh... Good puppy. Don't Bite.": {
     answer: "Rottweiler",
-    location: [],
-    cost: "",
+    location: ["Dorchester", "San Quentin", "Attica", "McNeil Island"],
+    cost: "$35,000,000",
     drops: [],
   },
   "Used to get all the lint off of clothing.": {
     answer: "Suit Brush",
-    location: [],
-    cost: "",
+    location: ["Guantamano Bay", "Long Bay", "Utah"],
+    cost: "$12,000,000",
     drops: [],
   },
   "Useful in case you need to try to unlock a car door.": {
     answer: "Coat Hanger",
-    location: [],
-    cost: "",
+    location: ["Panama", "Alcatraz"],
+    cost: "$1,000",
     drops: [],
   },
   "Useful while riding your chopper": {
     answer: "Motorbike Helmet",
-    location: [],
-    cost: "",
+    location: ["Sing Sing"],
+    cost: "$50,000,000",
     drops: [],
   },
   "Wear one to protect your noggin, even if you're riding backsies": {
     answer: "Scooter Helmet",
-    location: [],
-    cost: "",
+    location: ["Attica", "McNeil Island"],
+    cost: "$20,000,000",
     drops: [],
   },
   "Well, certainly inventive footwear": {
@@ -624,15 +624,15 @@ const clueAnswers = {
   },
   "What are you a lumberjack?": {
     answer: "Axe",
-    location: [],
-    cost: "",
+    location: ["Dorchester", "San Quentin", "Attica", "McNeil Island"],
+    cost: "$15,000,000",
     drops: [],
   },
   "What came first?": { answer: "Egg", location: [] },
   "Why are they still making these out of wood?": {
     answer: "Modern Clogs",
-    location: [],
-    cost: "",
+    location: ["Guantamano Bay", "Long Bay"],
+    cost: "$250,000",
     drops: [],
   },
   "Why do I have this still, it isnt October?": {
@@ -643,26 +643,26 @@ const clueAnswers = {
   },
   "Why is this hat so big?": {
     answer: "Texan Hat",
-    location: [],
-    cost: "",
+    location: ["Dorchester", "San Quentin", "Attica"],
+    cost: "$4,000,000",
     drops: [],
   },
   "Why? Why are they made of wood?": {
     answer: "Clogs",
-    location: [],
-    cost: "",
+    location: ["Alcatraz", "Guantanamo Bay", "Long Bay"],
+    cost: "$100,000",
     drops: [],
   },
   "Will keep your feet warm but not much else": {
     answer: "Bedroom Slipper",
-    location: [],
-    cost: "",
+    location: ["Panama", "Alcatraz", "Guantanamo Bay"],
+    cost: "$35,000",
     drops: [],
   },
   "With just a little sharpened metal and some cloth, stab": {
     answer: "Shank",
-    location: [],
-    cost: "",
+    location: ["Panama", "Alcatraz", "Guantanamo Bay", "Long Bay"],
+    cost: "$15,000",
     drops: [],
   },
   "Winner winner turkey dinner!!!!": {
@@ -673,14 +673,14 @@ const clueAnswers = {
   },
   "Wonderful if you've ripped your pants.": {
     answer: "Sewing Kit",
-    location: [],
-    cost: "",
+    location: ["Utah", "Dorchester", "San Quentin"],
+    cost: "$15,000,000",
     drops: [],
   },
   "You could shoot someone's eyes out with one of these": {
     answer: "Slingshot",
-    location: [],
-    cost: "",
+    location: ["Alcatraz", "Guantanamo Bay", "Long Bay", "Utah"],
+    cost: "$350,000",
     drops: [],
   },
   "Yum on a stick.": {
@@ -695,27 +695,13 @@ const clueAnswers = {
     cost: "",
     drops: [],
   },
-  "Zap!": { answer: "Tazer", location: [], cost: "", drops: [] },
+  "Zap!": {
+    answer: "Tazer",
+    location: ["Utah", "Dorchester", "San Quentin"],
+    cost: "$3,000,000",
+    drops: [],
+  },
 };
-
-// Inject Tippy styling without an external file
-function injectTippyStyles() {
-  const style = document.createElement("style");
-  style.textContent = `
-    .tippy-box[data-theme~='prisonstruggle'] {
-      background-color: rgba(0, 0, 0, 0.85);
-      color: white;
-      font-size: 14px;
-      padding: 8px 10px;
-      border-radius: 4px;
-      max-width: 350px;
-    }
-    .tippy-box[data-theme~='prisonstruggle'] > .tippy-arrow::before {
-      border-color: rgba(0, 0, 0, 0.85);
-    }
-  `;
-  document.head.appendChild(style);
-}
 
 function insertAnswers() {
   document
