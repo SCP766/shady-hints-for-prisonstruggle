@@ -14,7 +14,8 @@
         "https://prisonstruggle.com/buydrugs.php",
         "https://jailstruggle.com/buydrugs.php"
       ],
-      "js": ["content.js"]
+      "js": ["lib/popper.js", "lib/tippy.umd.min.js", "content.js"],
+      "run_at": "document_idle"
     }
   ],
   "permissions": []
