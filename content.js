@@ -37,7 +37,7 @@ const clueAnswers = {
   },
   "A tricky attempt to eat fruit.": {
     answer: "Orange Slices",
-    location: [""],
+    location: ["Boss Drop[McNeil Island, San Quentin]"],
     cost: "",
     drops: [],
   },
@@ -67,7 +67,7 @@ const clueAnswers = {
   },
   "Be careful with this one. It can be dangerous if misused.": {
     answer: "Firework",
-    location: ["Auction"],
+    location: ["Auction","Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -91,7 +91,7 @@ const clueAnswers = {
   },
   "Bring me back to life.": {
     answer: "Health Pill",
-    location: [""],
+    location: ["Sing Sing"],
     cost: "$500,000",
     drops: [],
   },
@@ -103,7 +103,7 @@ const clueAnswers = {
   },
   "Care to take a chance at love?": {
     answer: "Cupids Arrow",
-    location: ["Auction"],
+    location: ["Auction","Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -127,7 +127,7 @@ const clueAnswers = {
   },
   "Definitely not for everyone.": {
     answer: "Cranberry Sauce",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -193,7 +193,7 @@ const clueAnswers = {
   },
   "Goes well in your coffee.": {
     answer: "Sugar",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -269,7 +269,7 @@ const clueAnswers = {
   },
   "If they don't make you faster, the blade could be useful": {
     answer: "Ice Skates",
-    location: [],
+    location: ["Clues"],
     cost: "",
     drops: [],
   },
@@ -300,13 +300,13 @@ const clueAnswers = {
   },
   "It tastes so good and makes you feel brand new!": {
     answer: "Party Cupcake",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
   "It was once festive now it just decomposes and smells": {
     answer: "Moldy Pumpkin",
-    location: [],
+    location: ["Chef Dion"],
     cost: "",
     drops: [],
   },
@@ -354,7 +354,7 @@ const clueAnswers = {
   },
   "No one actually does this.": {
     answer: "Flaming Dog Poo",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -366,19 +366,19 @@ const clueAnswers = {
   },
   "Not a vest for fly swatters.": {
     answer: "Swat Vest",
-    location: [],
+    location: ["Chef Dion"],
     cost: "",
     drops: [],
   },
   "Not just for February 14th": {
     answer: "Valentine Rose",
-    location: [],
+    location: ["Chef Dion"],
     cost: "",
     drops: [],
   },
   "Nothing to worry about when this is on": {
     answer: "Guard Protection",
-    location: [],
+    location: ["Clues","Boss Drop[*]"],
     cost: "",
     drops: [],
   },
@@ -420,13 +420,13 @@ const clueAnswers = {
   },
   "Plot twist. It isn't safe!": {
     answer: "Xylazine",
-    location: [],
+    location: ["Halloween Event"],
     cost: "",
     drops: [],
   },
   "Poop literally poop.": {
     answer: "Fertilizer",
-    location: [],
+    location: ["Boss Drop[*]"],
     cost: "",
     drops: [],
   },
@@ -510,7 +510,7 @@ const clueAnswers = {
   },
   "Take one if you've had a long day.": {
     answer: "Awake Pill",
-    location: ["Chef Dion"],
+    location: ["Clues"],
     cost: "",
     drops: [],
   },
@@ -552,13 +552,13 @@ const clueAnswers = {
   },
   "This has to be expired by now... right?": {
     answer: "Milk",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
   "This looks like it is pretty universal": {
     answer: "Warden Office Key",
-    location: ["Boss Drop", "Daily Visit"],
+    location: ["Boss Drop", "Daily Visit","Clues"],
     cost: "",
     drops: [],
   },
@@ -570,7 +570,7 @@ const clueAnswers = {
   },
   "This seems kind of stale, but it's sugar.": {
     answer: "Candy Corn",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -637,7 +637,7 @@ const clueAnswers = {
   },
   "Why do I have this still, it isnt October?": {
     answer: "Golden Pumpkin",
-    location: [],
+    location: ["Halloween Event"],
     cost: "",
     drops: [],
   },
@@ -667,7 +667,7 @@ const clueAnswers = {
   },
   "Winner winner turkey dinner!!!!": {
     answer: "Turkey Dinner",
-    location: [],
+    location: ["Chef Dion"],
     cost: "",
     drops: [],
   },
@@ -685,13 +685,13 @@ const clueAnswers = {
   },
   "Yum on a stick.": {
     answer: "Lollipop",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
   "Zombies can't use a gun...Can they?": {
     answer: "Zombie Guards Gun [Rubber Bullets]",
-    location: [],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
