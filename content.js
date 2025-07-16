@@ -234,18 +234,26 @@ const clueAnswers = {
     drops: [],
   },
   "I look like a rainbow, but some are unkind. The wrong flavor’s a curse, so take your time.":
-    { answer: "Jelly Beans", location: [], cost: "", drops: [] },
+    { answer: "Jelly Beans",
+     location: ["Easter Bunny [Mug]"],
+     cost: "",
+     drops: [] 
+    },
   "I think this belongs to a coach?": {
     answer: "Whistle",
     location: ["Guantanamo Bay", "Long Bay", "Utah"],
     cost: "$10,000,000",
     drops: [],
   },
-  "I’m an egg, but not for your breakfast plate. Crack me open, and I’ll make you salivate.":
-    { answer: "Peanut Butter Eggs", location: [], cost: "", drops: [] },
+  "I’m an egg, but not for your breakfast plate. Crack me open, and I’ll make you salivate.": {
+    answer: "Peanut Butter Eggs",
+    location: ["Easter Bunny [Mug]"],
+    cost: "",
+    drops: [] 
+  },
   "If dark, better for the heart, but I don't make you fart.": {
     answer: "Choco Butter",
-    location: [],
+    location: ["Boss Drop [Murphy]"]],
     cost: "",
     drops: [],
   },
@@ -257,7 +265,7 @@ const clueAnswers = {
   },
   "If you want you can use this candy as a straw": {
     answer: "Liquorice",
-    location: [],
+    location: ["Boss Drop [Murphy]"]],
     cost: "",
     drops: [],
   },
@@ -324,7 +332,7 @@ const clueAnswers = {
   },
   "It's said that Dion uses this very item as toilet paper.": {
     answer: "Murphy Ticket",
-    location: [],
+    location: ["Boss Drop [Murphy]"]],
     cost: "",
     drops: [],
   },
@@ -628,7 +636,7 @@ const clueAnswers = {
     cost: "$15,000,000",
     drops: [],
   },
-  "What came first?": { answer: "Egg", location: [] },
+  "What came first?": { answer: "Egg", location: ["Boss Drop [Murphy]"]] },
   "Why are they still making these out of wood?": {
     answer: "Modern Clogs",
     location: ["Guantamano Bay", "Long Bay"],
