@@ -67,7 +67,7 @@ const clueAnswers = {
   },
   "Be careful with this one. It can be dangerous if misused.": {
     answer: "Firework",
-    location: ["Auction","Boss Drop [Murphy]"],
+    location: ["Auction", "Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -103,7 +103,7 @@ const clueAnswers = {
   },
   "Care to take a chance at love?": {
     answer: "Cupids Arrow",
-    location: ["Auction","Boss Drop [Murphy]"],
+    location: ["Auction", "Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -234,10 +234,11 @@ const clueAnswers = {
     drops: [],
   },
   "I look like a rainbow, but some are unkind. The wrong flavor’s a curse, so take your time.":
-    { answer: "Jelly Beans",
-     location: ["Easter Bunny [Mug]"],
-     cost: "",
-     drops: [] 
+    {
+      answer: "Jelly Beans",
+      location: ["Easter Bunny [Mug]"],
+      cost: "",
+      drops: [],
     },
   "I think this belongs to a coach?": {
     answer: "Whistle",
@@ -245,15 +246,16 @@ const clueAnswers = {
     cost: "$10,000,000",
     drops: [],
   },
-  "I’m an egg, but not for your breakfast plate. Crack me open, and I’ll make you salivate.": {
-    answer: "Peanut Butter Eggs",
-    location: ["Easter Bunny [Mug]"],
-    cost: "",
-    drops: [] 
-  },
+  "I’m an egg, but not for your breakfast plate. Crack me open, and I’ll make you salivate.":
+    {
+      answer: "Peanut Butter Eggs",
+      location: ["Easter Bunny [Mug]"],
+      cost: "",
+      drops: [],
+    },
   "If dark, better for the heart, but I don't make you fart.": {
     answer: "Choco Butter",
-    location: ["Boss Drop [Murphy]"]],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -265,7 +267,7 @@ const clueAnswers = {
   },
   "If you want you can use this candy as a straw": {
     answer: "Liquorice",
-    location: ["Boss Drop [Murphy]"]],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -332,7 +334,7 @@ const clueAnswers = {
   },
   "It's said that Dion uses this very item as toilet paper.": {
     answer: "Murphy Ticket",
-    location: ["Boss Drop [Murphy]"]],
+    location: ["Boss Drop [Murphy]"],
     cost: "",
     drops: [],
   },
@@ -386,7 +388,7 @@ const clueAnswers = {
   },
   "Nothing to worry about when this is on": {
     answer: "Guard Protection",
-    location: ["Clues","Boss Drop[*]"],
+    location: ["Clues", "Boss Drop[*]"],
     cost: "",
     drops: [],
   },
@@ -566,7 +568,7 @@ const clueAnswers = {
   },
   "This looks like it is pretty universal": {
     answer: "Warden Office Key",
-    location: ["Boss Drop", "Daily Visit","Clues"],
+    location: ["Boss Drop", "Daily Visit", "Clues"],
     cost: "",
     drops: [],
   },
@@ -636,7 +638,7 @@ const clueAnswers = {
     cost: "$15,000,000",
     drops: [],
   },
-  "What came first?": { answer: "Egg", location: ["Boss Drop [Murphy]"]] },
+  "What came first?": { answer: "Egg", location: ["Boss Drop [Murphy]"] },
   "Why are they still making these out of wood?": {
     answer: "Modern Clogs",
     location: ["Guantamano Bay", "Long Bay"],
