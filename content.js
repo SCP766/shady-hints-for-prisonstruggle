@@ -548,7 +548,7 @@ const clueAnswers = {
     cost: "$45,000,000",
     drops: [],
   },
-  "These must be stolen from the commissary's food section. Tons of protein": {
+  "These must be stolen from the commissary’s food section. Tons of protein": {
     answer: "Energy Bars",
     location: ["Utah", "Dorchester", "San Quentin"],
     cost: "$18,000,000",
@@ -787,7 +787,4 @@ window.addEventListener("load", function onLoad() {
     placement: "top",
     theme: "prisonstruggle",
   });
-  console.log(
-    "[Extension] insertAnswers executed, Tippy initialized using extension-bundled Tippy."
-  );
 });
