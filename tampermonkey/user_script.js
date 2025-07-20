@@ -570,7 +570,7 @@
       cost: "",
       drops: [],
     },
-    "This looks like it is pretty universal": {
+    "This looks like it is pretty universal.": {
       answer: "Warden Office Key",
       location: ["Boss Drop", "Daily Visit"],
       cost: "",
