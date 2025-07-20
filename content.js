@@ -65,6 +65,12 @@ const clueAnswers = {
     cost: "",
     drops: [],
   },
+   "Ba-Ba-Balloomba?": {
+    answer: "Party Balloons",
+    location: ["Auction"],
+    cost: "",
+    drops: [],
+  },
   "Be careful with this one. It can be dangerous if misused.": {
     answer: "Firework",
     location: ["Auction", "Boss Drop [Murphy]"],
@@ -549,6 +555,12 @@ const clueAnswers = {
     drops: [],
   },
   "These must be stolen from the commissary’s food section. Tons of protein": {
+    answer: "Energy Bars",
+    location: ["Utah", "Dorchester", "San Quentin"],
+    cost: "$18,000,000",
+    drops: [],
+  },
+  "These must be stolen from the commissary food section. Tons of protein": {
     answer: "Energy Bars",
     location: ["Utah", "Dorchester", "San Quentin"],
     cost: "$18,000,000",
