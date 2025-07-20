@@ -43,6 +43,11 @@ If an update is released:
 - Click **Load unpacked** and select the updated folder.
 
 ---
+## 🎞️ Screenshot
+<img width="669" height="805" alt="image" src="https://github.com/user-attachments/assets/f1526fe9-aabd-4f00-bdce-ad1bab48a150" />
+
+
+---
 
 ## 🩶 Credits
 
