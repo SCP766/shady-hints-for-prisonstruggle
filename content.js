@@ -560,12 +560,6 @@ const clueAnswers = {
     cost: "$18,000,000",
     drops: [],
   },
-  "These must be stolen from the commissary food section. Tons of protein": {
-    answer: "Energy Bars",
-    location: ["Utah", "Dorchester", "San Quentin"],
-    cost: "$18,000,000",
-    drops: [],
-  },
   "This button-up is deceitfully defensive.": {
     answer: "Padded Shirt",
     location: ["Panama", "Alcatraz", "Guantanamo Bay", "Long Bay", "Utah"],
