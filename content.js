@@ -59,7 +59,7 @@ const clueAnswers = {
     cost: "",
     drops: [],
   },
-  "Ba-Ba-Balloomba": {
+  "Ba-Ba-Balloomba?": {
     answer: "Party Balloons",
     location: ["Auction"],
     cost: "",
