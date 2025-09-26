@@ -1,11 +1,10 @@
 // ==UserScript==
-// @name         Boss Invite QoL
+// @name         Boss Invite Saver
 // @namespace    http://tampermonkey.net/
-// @version      2025-09-26
+// @version      1.0
 // @description  Save & re-invite users on bossfight with correct username formatting (normal, gradient, image, etc.)
-// @author       SCP766
 // @match        https://prisonstruggle.com/boss.php*
-// @math         https://jailstruggle.com/boss.php*
+// @grant        none
 // ==/UserScript==
 
 (function () {
@@ -95,7 +94,17 @@
 
     function inviteUser(userId) {
         inputField.value = userId;
-        inviteForm.submit();
+
+        // trigger the ajaxCheckUser validation
+        inputField.dispatchEvent(new Event('blur', { bubbles: true }));
+
+        // wait until invite button is enabled, then click
+        const interval = setInterval(() => {
+            if (!inviteBtn.disabled) {
+                inviteBtn.click();
+                clearInterval(interval);
+            }
+        }, 150);
     }
 
     function removeUser(index) {
