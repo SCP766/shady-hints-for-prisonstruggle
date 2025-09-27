@@ -75,7 +75,7 @@
         tbody.querySelectorAll("[data-remove]").forEach(el => {
             el.addEventListener("click", (e) => {
                 e.preventDefault();
-                removeUser(parseInt(e.target.dataset.remove, 10));
+                removeUser(parseInt(e.currentTarget.dataset.remove, 10));
             });
         });
     }
@@ -110,6 +110,19 @@
         renderSavedUsers();
     }
 
+    function saveAfterAjax(userId) {
+        inputField.value = userId;
+        inputField.dispatchEvent(new Event('blur', { bubbles: true }));
+
+        const interval = setInterval(() => {
+            const usernameEl = document.querySelector("#usernameContainer .username");
+            if (usernameEl) {
+                saveUser(userId);
+                clearInterval(interval);
+            }
+        }, 150);
+    }
+
     function addSaveAndInviteBtn() {
         if (!inviteBtn) return;
 
@@ -121,8 +134,8 @@
         saveBtn.addEventListener("click", () => {
             const userId = inputField.value.trim();
             if (!userId) return;
-            saveUser(userId);
-            inviteForm.submit();
+            saveAfterAjax(userId);
+            inviteUser(userId);
         });
 
         inviteBtn.insertAdjacentElement("afterend", saveBtn);
