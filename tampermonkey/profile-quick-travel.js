@@ -23,7 +23,7 @@
         "Attica": 8,
         "McNeil Island": 9,
         "Sing Sing": 10,
-        "Devils Island": 11,
+        "Devil's Island": 11,
         "Riker's Island": 12
     };
 
