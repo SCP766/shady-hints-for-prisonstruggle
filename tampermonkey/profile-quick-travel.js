@@ -23,7 +23,8 @@
         "Attica": 8,
         "McNeil Island": 9,
         "Sing Sing": 10,
-        "Devils Island": 11
+        "Devils Island": 11,
+        "Riker's Island": 12
     };
 
     const prisonLabel = [...document.querySelectorAll('td')]
