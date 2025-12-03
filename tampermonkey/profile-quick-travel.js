@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PrisonStruggle - Quick Travel
 // @namespace    http://tampermonkey.net/
-// @version      2025-10-09
+// @version      2025-12-03
 // @description  Make the prison name in profiles clickable for instant travel\
 // @match        https://prisonstruggle.com/profiles.php?id=*
 // @grant        GM_xmlhttpRequest
@@ -11,7 +11,6 @@
 (function() {
     'use strict';
 
-    // Prison -> go value map
     const PRISON_MAP = {
         "Panama": 1,
         "Alcatraz": 2,
@@ -45,19 +44,17 @@
     prisonCell.appendChild(link);
 
     link.addEventListener('click', () => {
-        if (!confirm(`Travel to ${prisonName}?`)) return;
-
         const goValue = PRISON_MAP[prisonName];
+        const meta = document.querySelector('meta[name="csrf-token"]');
+        const csrfToken = meta ? meta.getAttribute('content') : '';
+
         GM_xmlhttpRequest({
             method: "POST",
             url: "https://prisonstruggle.com/bus.php",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            data: `go=${goValue}`,
-            onload: () => {
-                alert(`Travelled to ${prisonName}!`);
-                location.reload();
-            },
-            onerror: () => alert("Error while travelling.")
+            data: `go=${goValue}&csrf_token=${encodeURIComponent(csrfToken)}`,
+            onload: () => location.reload(),
+            onerror: () => console.error("Error while travelling.")
         });
     });
 })();
