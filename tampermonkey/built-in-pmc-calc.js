@@ -86,16 +86,11 @@
         const grandTotalRow = tbody.querySelector('tr[style*="font-weight: bold"]');
 
         if (grandTotalRow) {
-            grandTotalRow.innerHTML = `
-                <td colspan="3" style="text-align: right; padding-right: 10px;">Grand Total:</td>
-                <td style="text-align: center;">10,715</td>
-                <td></td>
-                <td></td>
-            `;
+           
 
             const calcRow = document.createElement('tr');
             calcRow.style.fontWeight = 'bold';
-            calcRow.style.background = '#e8f4f8';
+            calcRow.style.background = '#706e57';
             calcRow.innerHTML = `
                 <td style="text-align: right; padding-right: 10px;">Point per Awake:</td>
                 <td style="text-align: center;">
@@ -109,7 +104,7 @@
                 <td style="text-align: right; padding-right: 10px;">Total Awake To Sell:</td>
                 <td id="pmc-total-awake" style="text-align: center;">0</td>
                 <td style="text-align: right; padding-right: 10px;">Total Points:</td>
-                <td id="pmc-total-points" style="text-align: center; color: #2c3e50; font-size: 16px;">0</td>
+                <td id="pmc-total-points" style="text-align: center; font-size: 16px;">0</td>
             `;
             tbody.insertBefore(calcRow, grandTotalRow.nextSibling);
 
